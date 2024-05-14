@@ -1,0 +1,89 @@
+:root{
+    --dark:#000000;
+    --lightdark:#14213D;
+    --vibrant:#FCA311;
+    --lightBright:#E5E5E5;
+    --bright:#FFFFFF;
+}
+.leftToRight{
+    animation: leftToRight 1s;
+}
+@keyframes leftToRight {
+    0%{
+        transform: translateX(-100%) rotate(-90deg);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translate(0%) rotate(0deg);
+        opacity: 1;
+    }
+}
+.rightToLeft{
+    animation: rightToLeft 1s;
+}
+@keyframes rightToLeft {
+    0%{
+        transform: translate(100%) rotate(90deg) ;
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translate(0%) rotate(0deg) ;
+        opacity: 1;
+    }   
+}
+
+.typing{
+    width: 0;
+    animation: typing 4s forwards ease-in-out;
+    overflow: hidden;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+@keyframes typing {
+    0%{
+        width: 1%;
+    }
+    50%{
+        width: 100%;
+    }
+    90%{
+        width: 100%;
+    }
+    100%{
+        width: 1%;
+    }
+}
+#scrollBar{
+    position: fixed;
+    top: 0;
+    height: 0.2rem;
+    background: var(--vibrant);
+    width: 0.2rem;
+    animation: scrollB;
+    animation-timeline: scroll();
+    z-index: 200;
+}
+@keyframes scrollB {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.blockAnimation{
+    animation: visible 2s forwards;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes visible {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

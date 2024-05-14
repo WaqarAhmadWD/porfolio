@@ -1,0 +1,48 @@
+:root{
+    --dark:#000000;
+    --lightdark:#14213D;
+    --vibrant:#FCA311;
+    --lightBright:#E5E5E5;
+    --bright:#FFFFFF;
+}
+.dark{
+    color: var(--dark);
+}
+.lightDark{
+    color: var(--lightdark);
+}
+.vibrant{
+    color: var(--vibrant);
+}
+.lightBright{
+    color: var(--lightBright);
+}
+.bright{
+    color: var(--bright);
+}
+.flex{
+    display: flex;
+}
+.m-2{
+    margin: 2rem;
+}
+/* width */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--lightdark);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--lightBright);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
