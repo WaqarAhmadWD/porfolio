@@ -94,8 +94,8 @@ header .title i{
     font-weight: bold;    
 }
 .landingPage img{
-    height: 20rem;
-    width: 20rem;
+    height: 300px;
+    width: 300px;
     object-fit:cover;
     border-radius: 50%;
     object-position: 0rem -1rem;
