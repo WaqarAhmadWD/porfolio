@@ -75,15 +75,15 @@
     }
 }
 .blockAnimation{
-    animation: visible 2s forwards;
+    animation: visible;
     animation-timeline: view();
     animation-range: entry;
 }
 @keyframes visible {
     0%{
-        /* opacity: 0; */
+        background: var(--dark);
     }
     100%{
-        /* opacity: 1; */
+        background: var(--lightdark);
     }
 }
