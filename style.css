@@ -89,13 +89,14 @@ header .title i{
 .landingPage .content{
     padding:0 2rem;
 }
-.landingPage .title{
+.landingPage .Contitle{
     font-size: 3rem;
-    font-weight: bold;    
+    font-weight: bold;
+    margin: 1rem;
 }
 .landingPage img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width:250px;
     object-fit:cover;
     border-radius: 50%;
     object-position: 0rem -1rem;
