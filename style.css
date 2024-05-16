@@ -58,6 +58,7 @@ header .title i{
     border: 1px solid var(--lightBright);
     border-radius: 25px;
     position: relative;
+    width:20%;
 }
 .search input{
     background: transparent;
@@ -65,6 +66,8 @@ header .title i{
     border: none;
     color: var(--bright);
     padding: 5px 10px;
+    width:100%;
+    z-index: 20;
 }
 .search i{
     margin:5px 10px;
