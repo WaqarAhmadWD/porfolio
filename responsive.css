@@ -24,4 +24,7 @@
     .landingPage{
         align-items: flex-start;
     }
+    .desc{
+        font-size: 15px !important;
+    }
 }
